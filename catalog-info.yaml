@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: provision-vm-centos4
+  description: deploy-a-centos-vm
+  annotations:
+    backstage.io/kubernetes-id: provision-vm-centos4
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  lifecycle: production
+  owner: neenspa
